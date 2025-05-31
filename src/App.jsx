@@ -1,12 +1,12 @@
 import React from "react";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
 import ProductCard from "./components/ProductCard";
+import Footer from "./components/Footer";
+import HeroSection from "./components/HeroSection";
 
 const App = () => {
   return (
     <div className="bg-gray-50 min-h-screen flex flex-col justify-between">
-      <Header />
+      <HeroSection />
 
       <main className="max-w-7xl mx-auto px-4 py-8 flex-1">
         <h2 className="text-2xl font-bold text-green-700 mb-6">Our Products</h2>
