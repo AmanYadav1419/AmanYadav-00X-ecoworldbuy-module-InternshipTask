@@ -1,12 +1,59 @@
-# React + Vite
+# 🌿 EcoWorldBuy - Alatree Ventures Tech Assessment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![EcoWorldBuy UI Screenshot](./public/preview-screenshot.png)
 
-Currently, two official plugins are available:
+**EcoWorldBuy.com** is a fictional eco-friendly marketplace that promotes sustainable, planet-positive products. This project was built as part of the technical assessment for the Contract Web Developer role at **Alatree Ventures**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🌟 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ✅ Light, airy layout with generous white space
+- ✅ Rounded cards and buttons
+- ✅ Ghost buttons with green borders
+- ✅ Gentle micro-animations on hover (floating leaf effect)
+- ✅ Fully responsive design (mobile, tablet, desktop)
+- ✅ Custom SVG leaf & logo illustrations
+- ✅ Clean folder structure & optimized code
+
+---
+
+## 🧰 Tech Stack
+
+| Technology         | Description                        |
+| ------------------ | ---------------------------------- |
+| React (JavaScript) | Frontend framework (Vite setup)    |
+| Tailwind CSS       | Utility-first CSS for fast styling |
+| HTML5/CSS3         | Markup & base styling              |
+| Netlify / Vercel   | Deployment platform (staging/live) |
+
+---
+
+## 📁 Project Folder Structure
+
+alatree_ventures_task/
+│
+├── public/
+│ ├── logo.svg # Main brand logo
+│ └─ leaf.svg # Decorative leaf illustration
+│
+├── src/
+│ ├── assets/ # Static images, SVGs, logos
+│ │ └── illustrations/
+│ │ └── leaf.svg
+│ │
+│ │
+│ ├── components/ # Reusable UI components
+│ │ ├── Header.jsx
+│ │ ├── Footer.jsx
+│ │ └── ProductCard.jsx
+│ │
+│ ├── styles/ # Custom Tailwind or CSS files
+│ │ └── index.css
+│ │
+│ ├── App.jsx # Main application component
+│ └── main.jsx # React entry point
+│
+├── .gitignore
+├── package.json
+└── README.md
